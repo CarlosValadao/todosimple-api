@@ -99,6 +99,14 @@ public class User {
         return result;
     }
 
+    public List<Task> getTasks() {
+        return tasks;
+    }
+
+    public void setTasks(List<Task> tasks) {
+        this.tasks = tasks;
+    }
+
     @Override
     public boolean equals(Object obj) {
         if (this == obj)
